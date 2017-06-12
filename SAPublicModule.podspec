@@ -31,6 +31,10 @@ Pod::Spec.new do |s|
   s.subspec 'SATopScrollView' do |ss|
   ss.source_files = 'SAPublicModule/SAPublicModule/SATopScrollView/*.{h,m}'
   end
+  
+  s.subspec 'SAFont' do |ss|
+  ss.source_files = 'SAPublicModule/SAPublicModule/SAFont/*.{h.m}'
+  end
 
   s.dependency 'Masonry', '~> 1.0.2'
 
