@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		841C263B1EEA715E001FEFA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 841C263A1EEA715E001FEFA6 /* main.m */; };
+		841C263E1EEA715E001FEFA6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 841C263D1EEA715E001FEFA6 /* AppDelegate.m */; };
+		841C26411EEA715E001FEFA6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841C26401EEA715E001FEFA6 /* ViewController.m */; };
+		841C26441EEA715E001FEFA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841C26421EEA715E001FEFA6 /* Main.storyboard */; };
+		841C26461EEA715E001FEFA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841C26451EEA715E001FEFA6 /* Assets.xcassets */; };
+		841C26491EEA715E001FEFA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841C26471EEA715E001FEFA6 /* LaunchScreen.storyboard */; };
+		841C26531EEA74B4001FEFA6 /* SAPlaceholderLabelTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 841C26521EEA74B4001FEFA6 /* SAPlaceholderLabelTextView.m */; };
+		841C26571EEA74D0001FEFA6 /* SACollectionViewGridLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 841C26561EEA74D0001FEFA6 /* SACollectionViewGridLayout.m */; };
+		841C265B1EEA7511001FEFA6 /* NumberButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 841C265A1EEA7511001FEFA6 /* NumberButton.m */; };
+		841C26611EEA7912001FEFA6 /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841C26601EEA7912001FEFA6 /* OneViewController.m */; };
+		841C26641EEA791E001FEFA6 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841C26631EEA791E001FEFA6 /* TwoViewController.m */; };
+		841C26671EEA7932001FEFA6 /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841C26661EEA7932001FEFA6 /* ThreeViewController.m */; };
+		84AB3BAE1EEE23CF00862A72 /* UILabel+RowColumnSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AB3BAD1EEE23CF00862A72 /* UILabel+RowColumnSpace.m */; };
+		84AB3BB31EEE400E00862A72 /* SAPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AB3BB01EEE400E00862A72 /* SAPageViewController.m */; };
+		84AB3BB41EEE400E00862A72 /* SATopScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AB3BB21EEE400E00862A72 /* SATopScrollView.m */; };
+		F2721184B2B88B84A9B72C5F /* libPods-SAPublicModule.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C6B22C979B44EF84E1E689E /* libPods-SAPublicModule.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6C6B22C979B44EF84E1E689E /* libPods-SAPublicModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SAPublicModule.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		841C26361EEA715E001FEFA6 /* SAPublicModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SAPublicModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		841C263A1EEA715E001FEFA6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		841C263C1EEA715E001FEFA6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		841C263D1EEA715E001FEFA6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		841C263F1EEA715E001FEFA6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		841C26401EEA715E001FEFA6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		841C26431EEA715E001FEFA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		841C26451EEA715E001FEFA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		841C26481EEA715E001FEFA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		841C264A1EEA715E001FEFA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		841C26511EEA74B4001FEFA6 /* SAPlaceholderLabelTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPlaceholderLabelTextView.h; sourceTree = "<group>"; };
+		841C26521EEA74B4001FEFA6 /* SAPlaceholderLabelTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAPlaceholderLabelTextView.m; sourceTree = "<group>"; };
+		841C26551EEA74D0001FEFA6 /* SACollectionViewGridLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SACollectionViewGridLayout.h; sourceTree = "<group>"; };
+		841C26561EEA74D0001FEFA6 /* SACollectionViewGridLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SACollectionViewGridLayout.m; sourceTree = "<group>"; };
+		841C26591EEA7511001FEFA6 /* NumberButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberButton.h; sourceTree = "<group>"; };
+		841C265A1EEA7511001FEFA6 /* NumberButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberButton.m; sourceTree = "<group>"; };
+		841C265F1EEA7912001FEFA6 /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		841C26601EEA7912001FEFA6 /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		841C26621EEA791E001FEFA6 /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		841C26631EEA791E001FEFA6 /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		841C26651EEA7932001FEFA6 /* ThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
+		841C26661EEA7932001FEFA6 /* ThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
+		84AB3BAC1EEE23CF00862A72 /* UILabel+RowColumnSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+RowColumnSpace.h"; sourceTree = "<group>"; };
+		84AB3BAD1EEE23CF00862A72 /* UILabel+RowColumnSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+RowColumnSpace.m"; sourceTree = "<group>"; };
+		84AB3BAF1EEE400E00862A72 /* SAPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPageViewController.h; sourceTree = "<group>"; };
+		84AB3BB01EEE400E00862A72 /* SAPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAPageViewController.m; sourceTree = "<group>"; };
+		84AB3BB11EEE400E00862A72 /* SATopScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SATopScrollView.h; sourceTree = "<group>"; };
+		84AB3BB21EEE400E00862A72 /* SATopScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SATopScrollView.m; sourceTree = "<group>"; };
+		852AD49A565086CA12A9A686 /* Pods-SAPublicModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAPublicModule.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SAPublicModule/Pods-SAPublicModule.debug.xcconfig"; sourceTree = "<group>"; };
+		9937C1012C453519995F95DD /* Pods-SAPublicModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAPublicModule.release.xcconfig"; path = "Pods/Target Support Files/Pods-SAPublicModule/Pods-SAPublicModule.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		841C26331EEA715E001FEFA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2721184B2B88B84A9B72C5F /* libPods-SAPublicModule.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FF7E88A6F563A15E629D002 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				852AD49A565086CA12A9A686 /* Pods-SAPublicModule.debug.xcconfig */,
+				9937C1012C453519995F95DD /* Pods-SAPublicModule.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		841C262D1EEA715E001FEFA6 = {
+			isa = PBXGroup;
+			children = (
+				841C26381EEA715E001FEFA6 /* SAPublicModule */,
+				841C26371EEA715E001FEFA6 /* Products */,
+				2FF7E88A6F563A15E629D002 /* Pods */,
+				A9A2059AB9B1A73B1C471251 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		841C26371EEA715E001FEFA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				841C26361EEA715E001FEFA6 /* SAPublicModule.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		841C26381EEA715E001FEFA6 /* SAPublicModule */ = {
+			isa = PBXGroup;
+			children = (
+				84AB3BA71EEE223B00862A72 /* SALabelLineBetweenSpace */,
+				841C266B1EEA8095001FEFA6 /* SATopViewScroll */,
+				841C26581EEA7503001FEFA6 /* SANumberButton */,
+				841C26541EEA74C7001FEFA6 /* SACollectionViewGridLayout */,
+				841C26501EEA74AA001FEFA6 /* SAPlaceholderLabelTextView */,
+				841C263C1EEA715E001FEFA6 /* AppDelegate.h */,
+				841C263D1EEA715E001FEFA6 /* AppDelegate.m */,
+				841C263F1EEA715E001FEFA6 /* ViewController.h */,
+				841C26401EEA715E001FEFA6 /* ViewController.m */,
+				841C265F1EEA7912001FEFA6 /* OneViewController.h */,
+				841C26601EEA7912001FEFA6 /* OneViewController.m */,
+				841C26621EEA791E001FEFA6 /* TwoViewController.h */,
+				841C26631EEA791E001FEFA6 /* TwoViewController.m */,
+				841C26651EEA7932001FEFA6 /* ThreeViewController.h */,
+				841C26661EEA7932001FEFA6 /* ThreeViewController.m */,
+				841C26421EEA715E001FEFA6 /* Main.storyboard */,
+				841C26451EEA715E001FEFA6 /* Assets.xcassets */,
+				841C26471EEA715E001FEFA6 /* LaunchScreen.storyboard */,
+				841C264A1EEA715E001FEFA6 /* Info.plist */,
+				841C26391EEA715E001FEFA6 /* Supporting Files */,
+			);
+			path = SAPublicModule;
+			sourceTree = "<group>";
+		};
+		841C26391EEA715E001FEFA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				841C263A1EEA715E001FEFA6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		841C26501EEA74AA001FEFA6 /* SAPlaceholderLabelTextView */ = {
+			isa = PBXGroup;
+			children = (
+				841C26511EEA74B4001FEFA6 /* SAPlaceholderLabelTextView.h */,
+				841C26521EEA74B4001FEFA6 /* SAPlaceholderLabelTextView.m */,
+			);
+			path = SAPlaceholderLabelTextView;
+			sourceTree = "<group>";
+		};
+		841C26541EEA74C7001FEFA6 /* SACollectionViewGridLayout */ = {
+			isa = PBXGroup;
+			children = (
+				841C26551EEA74D0001FEFA6 /* SACollectionViewGridLayout.h */,
+				841C26561EEA74D0001FEFA6 /* SACollectionViewGridLayout.m */,
+			);
+			path = SACollectionViewGridLayout;
+			sourceTree = "<group>";
+		};
+		841C26581EEA7503001FEFA6 /* SANumberButton */ = {
+			isa = PBXGroup;
+			children = (
+				841C26591EEA7511001FEFA6 /* NumberButton.h */,
+				841C265A1EEA7511001FEFA6 /* NumberButton.m */,
+			);
+			path = SANumberButton;
+			sourceTree = "<group>";
+		};
+		841C266B1EEA8095001FEFA6 /* SATopViewScroll */ = {
+			isa = PBXGroup;
+			children = (
+				84AB3BAF1EEE400E00862A72 /* SAPageViewController.h */,
+				84AB3BB01EEE400E00862A72 /* SAPageViewController.m */,
+				84AB3BB11EEE400E00862A72 /* SATopScrollView.h */,
+				84AB3BB21EEE400E00862A72 /* SATopScrollView.m */,
+			);
+			name = SATopViewScroll;
+			path = SATopScrollView;
+			sourceTree = "<group>";
+		};
+		84AB3BA71EEE223B00862A72 /* SALabelLineBetweenSpace */ = {
+			isa = PBXGroup;
+			children = (
+				84AB3BAC1EEE23CF00862A72 /* UILabel+RowColumnSpace.h */,
+				84AB3BAD1EEE23CF00862A72 /* UILabel+RowColumnSpace.m */,
+			);
+			path = SALabelLineBetweenSpace;
+			sourceTree = "<group>";
+		};
+		A9A2059AB9B1A73B1C471251 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C6B22C979B44EF84E1E689E /* libPods-SAPublicModule.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		841C26351EEA715E001FEFA6 /* SAPublicModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 841C264D1EEA715E001FEFA6 /* Build configuration list for PBXNativeTarget "SAPublicModule" */;
+			buildPhases = (
+				8C96C35641C09B980497E8B5 /* [CP] Check Pods Manifest.lock */,
+				841C26321EEA715E001FEFA6 /* Sources */,
+				841C26331EEA715E001FEFA6 /* Frameworks */,
+				841C26341EEA715E001FEFA6 /* Resources */,
+				B6918E4755E3BC6225731409 /* [CP] Embed Pods Frameworks */,
+				94FCFA173DB26749537EDCE2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SAPublicModule;
+			productName = SAPublicModule;
+			productReference = 841C26361EEA715E001FEFA6 /* SAPublicModule.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		841C262E1EEA715E001FEFA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "李磊";
+				TargetAttributes = {
+					841C26351EEA715E001FEFA6 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = XDK267KQ83;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 841C26311EEA715E001FEFA6 /* Build configuration list for PBXProject "SAPublicModule" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 841C262D1EEA715E001FEFA6;
+			productRefGroup = 841C26371EEA715E001FEFA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				841C26351EEA715E001FEFA6 /* SAPublicModule */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		841C26341EEA715E001FEFA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841C26491EEA715E001FEFA6 /* LaunchScreen.storyboard in Resources */,
+				841C26461EEA715E001FEFA6 /* Assets.xcassets in Resources */,
+				841C26441EEA715E001FEFA6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8C96C35641C09B980497E8B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		94FCFA173DB26749537EDCE2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SAPublicModule/Pods-SAPublicModule-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6918E4755E3BC6225731409 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SAPublicModule/Pods-SAPublicModule-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		841C26321EEA715E001FEFA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841C265B1EEA7511001FEFA6 /* NumberButton.m in Sources */,
+				841C26411EEA715E001FEFA6 /* ViewController.m in Sources */,
+				841C263E1EEA715E001FEFA6 /* AppDelegate.m in Sources */,
+				84AB3BAE1EEE23CF00862A72 /* UILabel+RowColumnSpace.m in Sources */,
+				841C26531EEA74B4001FEFA6 /* SAPlaceholderLabelTextView.m in Sources */,
+				841C263B1EEA715E001FEFA6 /* main.m in Sources */,
+				841C26641EEA791E001FEFA6 /* TwoViewController.m in Sources */,
+				841C26571EEA74D0001FEFA6 /* SACollectionViewGridLayout.m in Sources */,
+				841C26611EEA7912001FEFA6 /* OneViewController.m in Sources */,
+				84AB3BB41EEE400E00862A72 /* SATopScrollView.m in Sources */,
+				841C26671EEA7932001FEFA6 /* ThreeViewController.m in Sources */,
+				84AB3BB31EEE400E00862A72 /* SAPageViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		841C26421EEA715E001FEFA6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				841C26431EEA715E001FEFA6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		841C26471EEA715E001FEFA6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				841C26481EEA715E001FEFA6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		841C264B1EEA715E001FEFA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		841C264C1EEA715E001FEFA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		841C264E1EEA715E001FEFA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 852AD49A565086CA12A9A686 /* Pods-SAPublicModule.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XDK267KQ83;
+				INFOPLIST_FILE = SAPublicModule/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LiLei.SAPublicModule;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "77f0e1f5-41af-44ef-975e-38903d34a039";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development *";
+			};
+			name = Debug;
+		};
+		841C264F1EEA715E001FEFA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9937C1012C453519995F95DD /* Pods-SAPublicModule.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XDK267KQ83;
+				INFOPLIST_FILE = SAPublicModule/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LiLei.SAPublicModule;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "77f0e1f5-41af-44ef-975e-38903d34a039";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development *";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		841C26311EEA715E001FEFA6 /* Build configuration list for PBXProject "SAPublicModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841C264B1EEA715E001FEFA6 /* Debug */,
+				841C264C1EEA715E001FEFA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		841C264D1EEA715E001FEFA6 /* Build configuration list for PBXNativeTarget "SAPublicModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841C264E1EEA715E001FEFA6 /* Debug */,
+				841C264F1EEA715E001FEFA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 841C262E1EEA715E001FEFA6 /* Project object */;
+}
