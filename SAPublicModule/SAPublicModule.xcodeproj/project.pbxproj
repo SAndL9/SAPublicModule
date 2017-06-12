@@ -22,6 +22,7 @@
 		84AB3BAE1EEE23CF00862A72 /* UILabel+RowColumnSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AB3BAD1EEE23CF00862A72 /* UILabel+RowColumnSpace.m */; };
 		84AB3BB31EEE400E00862A72 /* SAPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AB3BB01EEE400E00862A72 /* SAPageViewController.m */; };
 		84AB3BB41EEE400E00862A72 /* SATopScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AB3BB21EEE400E00862A72 /* SATopScrollView.m */; };
+		84AB3BB81EEE6C7E00862A72 /* SAFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AB3BB71EEE6C7E00862A72 /* SAFont.m */; };
 		F2721184B2B88B84A9B72C5F /* libPods-SAPublicModule.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C6B22C979B44EF84E1E689E /* libPods-SAPublicModule.a */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +56,8 @@
 		84AB3BB01EEE400E00862A72 /* SAPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAPageViewController.m; sourceTree = "<group>"; };
 		84AB3BB11EEE400E00862A72 /* SATopScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SATopScrollView.h; sourceTree = "<group>"; };
 		84AB3BB21EEE400E00862A72 /* SATopScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SATopScrollView.m; sourceTree = "<group>"; };
+		84AB3BB61EEE6C7E00862A72 /* SAFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAFont.h; sourceTree = "<group>"; };
+		84AB3BB71EEE6C7E00862A72 /* SAFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAFont.m; sourceTree = "<group>"; };
 		852AD49A565086CA12A9A686 /* Pods-SAPublicModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAPublicModule.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SAPublicModule/Pods-SAPublicModule.debug.xcconfig"; sourceTree = "<group>"; };
 		9937C1012C453519995F95DD /* Pods-SAPublicModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAPublicModule.release.xcconfig"; path = "Pods/Target Support Files/Pods-SAPublicModule/Pods-SAPublicModule.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,6 +104,7 @@
 		841C26381EEA715E001FEFA6 /* SAPublicModule */ = {
 			isa = PBXGroup;
 			children = (
+				84AB3BB51EEE6C5400862A72 /* SAFont */,
 				84AB3BA71EEE223B00862A72 /* SALabelLineBetweenSpace */,
 				841C266B1EEA8095001FEFA6 /* SATopViewScroll */,
 				841C26581EEA7503001FEFA6 /* SANumberButton */,
@@ -179,6 +183,15 @@
 				84AB3BAD1EEE23CF00862A72 /* UILabel+RowColumnSpace.m */,
 			);
 			path = SALabelLineBetweenSpace;
+			sourceTree = "<group>";
+		};
+		84AB3BB51EEE6C5400862A72 /* SAFont */ = {
+			isa = PBXGroup;
+			children = (
+				84AB3BB61EEE6C7E00862A72 /* SAFont.h */,
+				84AB3BB71EEE6C7E00862A72 /* SAFont.m */,
+			);
+			path = SAFont;
 			sourceTree = "<group>";
 		};
 		A9A2059AB9B1A73B1C471251 /* Frameworks */ = {
@@ -318,6 +331,7 @@
 				84AB3BAE1EEE23CF00862A72 /* UILabel+RowColumnSpace.m in Sources */,
 				841C26531EEA74B4001FEFA6 /* SAPlaceholderLabelTextView.m in Sources */,
 				841C263B1EEA715E001FEFA6 /* main.m in Sources */,
+				84AB3BB81EEE6C7E00862A72 /* SAFont.m in Sources */,
 				841C26641EEA791E001FEFA6 /* TwoViewController.m in Sources */,
 				841C26571EEA74D0001FEFA6 /* SACollectionViewGridLayout.m in Sources */,
 				841C26611EEA7912001FEFA6 /* OneViewController.m in Sources */,
