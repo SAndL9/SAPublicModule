@@ -24,7 +24,6 @@
 		84AB3BB41EEE400E00862A72 /* SATopScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AB3BB21EEE400E00862A72 /* SATopScrollView.m */; };
 		84AB3BB81EEE6C7E00862A72 /* SAFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AB3BB71EEE6C7E00862A72 /* SAFont.m */; };
 		84AB3BBE1EEE81EF00862A72 /* UILabel+SATextColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AB3BBD1EEE81EF00862A72 /* UILabel+SATextColor.m */; };
-		84AB3BC11EEE84BA00862A72 /* SAButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AB3BC01EEE84BA00862A72 /* SAButton.m */; };
 		F2721184B2B88B84A9B72C5F /* libPods-SAPublicModule.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C6B22C979B44EF84E1E689E /* libPods-SAPublicModule.a */; };
 /* End PBXBuildFile section */
 
@@ -62,8 +61,6 @@
 		84AB3BB71EEE6C7E00862A72 /* SAFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAFont.m; sourceTree = "<group>"; };
 		84AB3BBC1EEE81EF00862A72 /* UILabel+SATextColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+SATextColor.h"; sourceTree = "<group>"; };
 		84AB3BBD1EEE81EF00862A72 /* UILabel+SATextColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+SATextColor.m"; sourceTree = "<group>"; };
-		84AB3BBF1EEE84BA00862A72 /* SAButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAButton.h; sourceTree = "<group>"; };
-		84AB3BC01EEE84BA00862A72 /* SAButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAButton.m; sourceTree = "<group>"; };
 		852AD49A565086CA12A9A686 /* Pods-SAPublicModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAPublicModule.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SAPublicModule/Pods-SAPublicModule.debug.xcconfig"; sourceTree = "<group>"; };
 		9937C1012C453519995F95DD /* Pods-SAPublicModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAPublicModule.release.xcconfig"; path = "Pods/Target Support Files/Pods-SAPublicModule/Pods-SAPublicModule.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -198,8 +195,6 @@
 				84AB3BBD1EEE81EF00862A72 /* UILabel+SATextColor.m */,
 				84AB3BB61EEE6C7E00862A72 /* SAFont.h */,
 				84AB3BB71EEE6C7E00862A72 /* SAFont.m */,
-				84AB3BBF1EEE84BA00862A72 /* SAButton.h */,
-				84AB3BC01EEE84BA00862A72 /* SAButton.m */,
 			);
 			path = SAFont;
 			sourceTree = "<group>";
@@ -344,7 +339,6 @@
 				841C263B1EEA715E001FEFA6 /* main.m in Sources */,
 				84AB3BB81EEE6C7E00862A72 /* SAFont.m in Sources */,
 				841C26641EEA791E001FEFA6 /* TwoViewController.m in Sources */,
-				84AB3BC11EEE84BA00862A72 /* SAButton.m in Sources */,
 				841C26571EEA74D0001FEFA6 /* SACollectionViewGridLayout.m in Sources */,
 				841C26611EEA7912001FEFA6 /* OneViewController.m in Sources */,
 				84AB3BB41EEE400E00862A72 /* SATopScrollView.m in Sources */,
