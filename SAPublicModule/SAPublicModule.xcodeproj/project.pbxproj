@@ -24,6 +24,11 @@
 		84AB3BB41EEE400E00862A72 /* SATopScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AB3BB21EEE400E00862A72 /* SATopScrollView.m */; };
 		84AB3BB81EEE6C7E00862A72 /* SAFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AB3BB71EEE6C7E00862A72 /* SAFont.m */; };
 		84AB3BBE1EEE81EF00862A72 /* UILabel+SATextColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AB3BBD1EEE81EF00862A72 /* UILabel+SATextColor.m */; };
+		84AB3BCA1EEFC9BB00862A72 /* SACustomAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AB3BC91EEFC9BB00862A72 /* SACustomAlertView.m */; };
+		84AB3BCF1EEFCFCC00862A72 /* 矩形-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AB3BCB1EEFCFCC00862A72 /* 矩形-33@2x.png */; };
+		84AB3BD01EEFCFCC00862A72 /* 矩形-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AB3BCC1EEFCFCC00862A72 /* 矩形-33@3x.png */; };
+		84AB3BD11EEFCFCC00862A72 /* 矩形-34@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AB3BCD1EEFCFCC00862A72 /* 矩形-34@2x.png */; };
+		84AB3BD21EEFCFCC00862A72 /* 矩形-34@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AB3BCE1EEFCFCC00862A72 /* 矩形-34@3x.png */; };
 		F2721184B2B88B84A9B72C5F /* libPods-SAPublicModule.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C6B22C979B44EF84E1E689E /* libPods-SAPublicModule.a */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +66,12 @@
 		84AB3BB71EEE6C7E00862A72 /* SAFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAFont.m; sourceTree = "<group>"; };
 		84AB3BBC1EEE81EF00862A72 /* UILabel+SATextColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+SATextColor.h"; sourceTree = "<group>"; };
 		84AB3BBD1EEE81EF00862A72 /* UILabel+SATextColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+SATextColor.m"; sourceTree = "<group>"; };
+		84AB3BC81EEFC9BB00862A72 /* SACustomAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SACustomAlertView.h; sourceTree = "<group>"; };
+		84AB3BC91EEFC9BB00862A72 /* SACustomAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SACustomAlertView.m; sourceTree = "<group>"; };
+		84AB3BCB1EEFCFCC00862A72 /* 矩形-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "矩形-33@2x.png"; sourceTree = "<group>"; };
+		84AB3BCC1EEFCFCC00862A72 /* 矩形-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "矩形-33@3x.png"; sourceTree = "<group>"; };
+		84AB3BCD1EEFCFCC00862A72 /* 矩形-34@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "矩形-34@2x.png"; sourceTree = "<group>"; };
+		84AB3BCE1EEFCFCC00862A72 /* 矩形-34@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "矩形-34@3x.png"; sourceTree = "<group>"; };
 		852AD49A565086CA12A9A686 /* Pods-SAPublicModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAPublicModule.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SAPublicModule/Pods-SAPublicModule.debug.xcconfig"; sourceTree = "<group>"; };
 		9937C1012C453519995F95DD /* Pods-SAPublicModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAPublicModule.release.xcconfig"; path = "Pods/Target Support Files/Pods-SAPublicModule/Pods-SAPublicModule.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -107,6 +118,7 @@
 		841C26381EEA715E001FEFA6 /* SAPublicModule */ = {
 			isa = PBXGroup;
 			children = (
+				84AB3BC71EEFC98F00862A72 /* SACustomAlertView */,
 				84AB3BB51EEE6C5400862A72 /* SAFont */,
 				84AB3BA71EEE223B00862A72 /* SALabelLineBetweenSpace */,
 				841C266B1EEA8095001FEFA6 /* SATopViewScroll */,
@@ -199,6 +211,19 @@
 			path = SAFont;
 			sourceTree = "<group>";
 		};
+		84AB3BC71EEFC98F00862A72 /* SACustomAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				84AB3BC81EEFC9BB00862A72 /* SACustomAlertView.h */,
+				84AB3BC91EEFC9BB00862A72 /* SACustomAlertView.m */,
+				84AB3BCB1EEFCFCC00862A72 /* 矩形-33@2x.png */,
+				84AB3BCC1EEFCFCC00862A72 /* 矩形-33@3x.png */,
+				84AB3BCD1EEFCFCC00862A72 /* 矩形-34@2x.png */,
+				84AB3BCE1EEFCFCC00862A72 /* 矩形-34@3x.png */,
+			);
+			path = SACustomAlertView;
+			sourceTree = "<group>";
+		};
 		A9A2059AB9B1A73B1C471251 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -271,7 +296,11 @@
 			files = (
 				841C26491EEA715E001FEFA6 /* LaunchScreen.storyboard in Resources */,
 				841C26461EEA715E001FEFA6 /* Assets.xcassets in Resources */,
+				84AB3BD21EEFCFCC00862A72 /* 矩形-34@3x.png in Resources */,
 				841C26441EEA715E001FEFA6 /* Main.storyboard in Resources */,
+				84AB3BD01EEFCFCC00862A72 /* 矩形-33@3x.png in Resources */,
+				84AB3BD11EEFCFCC00862A72 /* 矩形-34@2x.png in Resources */,
+				84AB3BCF1EEFCFCC00862A72 /* 矩形-33@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,6 +364,7 @@
 				841C263E1EEA715E001FEFA6 /* AppDelegate.m in Sources */,
 				84AB3BBE1EEE81EF00862A72 /* UILabel+SATextColor.m in Sources */,
 				84AB3BAE1EEE23CF00862A72 /* UILabel+RowColumnSpace.m in Sources */,
+				84AB3BCA1EEFC9BB00862A72 /* SACustomAlertView.m in Sources */,
 				841C26531EEA74B4001FEFA6 /* SAPlaceholderLabelTextView.m in Sources */,
 				841C263B1EEA715E001FEFA6 /* main.m in Sources */,
 				84AB3BB81EEE6C7E00862A72 /* SAFont.m in Sources */,
