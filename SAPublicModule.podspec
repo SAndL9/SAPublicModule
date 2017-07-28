@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SAPublicModule"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "CollectionViewGridLayout封装,加减Button封装,网易滚动视图,textView提示文字"
   s.platform     = :ios, '8.0'
 
@@ -34,6 +34,11 @@ Pod::Spec.new do |s|
   
   s.subspec 'SAFont' do |ss|
   ss.source_files = 'SAPublicModule/SAPublicModule/SAFont/*.{h,m}'
+  end
+
+  s.subspec 'SACustomAlertView' do |ss|
+  ss.source_files = 'SAPublicModule/SAPublicModule/SACustomAlertView/*.{h,m}'
+  ss.resources = ['SAPublicModule/SAPublicModule/SACustomAlertView/*.png',]
   end
 
 
